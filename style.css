@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+
+body {
+  background-color:  hsl(233, 47%, 7%);
+  margin-top: 90px;
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size:  36px;
+  margin: 5% 0;
+}
+
+h2 {
+  margin: 0px;
+  font-size: 14px;
+  color: hsla(0, 0%, 100%, 0.6);
+  text-transform:uppercase;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+p { 
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  text-align: left;
+}
+
+.text {
+  margin: 9% 14% 0% 0%;
+  font-size: 95%;
+}
+
+.letter {
+  color:  hsl(277, 64%, 61%);
+}
+
+.stat-headings {
+  margin: 4px;
+  color: hsl(0, 0%, 100%);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+
+.card {
+  margin: 10%;
+  display: flex;
+  border-radius: 12px;
+  background-color: hsl(244, 38%, 16%);
+}
+
+.text-card {
+  flex-grow: 1;
+  margin: 5%;
+  max-width: 50%;
+}
+
+.img-card {
+  flex-grow: 1;
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  display: block;
+  border-radius: 0px 12px 12px 0px;
+  filter: opacity(0.4) drop-shadow(0 0 0 #aa5cdb); 
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 33% 33% auto;
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-gap: 12px;
+  margin-top: 11%;
+}
+
+
+@media (max-widht: 375px) {
+  h2 {
+    color: tomato;
+  }
+}
