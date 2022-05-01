@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [stats-preview-card](https://your-solution-url.com)
+- Solution URL: [stats-preview-card](https://yamilafuentes.github.io/stats-preview-card/)
 
 
 ## My process
