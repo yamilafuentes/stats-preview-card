@@ -2,66 +2,50 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" type="text/css" href="style.css">
   <title>Frontend Mentor | Stats preview card component</title>
-
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
-  
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: right; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
 </head>
 <body>
-<!--   <span>Es para identificar una etiqueta html dentro de otras etiquetas</span>
-  <br> podemos hacer saltos de linea
-  <hr> linea horizontal
-  <article> definir contenido completamente independiente, ej: post de un blog</article> -->
-  <section>
-    <article class="card">      
+  <section class="flex-container">
+    <article class="main-card"> 
+      <div class="img-card">       
+          <img src="images/image-header-desktop.jpg">
+      </div>     
       <div class="text-card">
-        <div>
-          <h1>Get <span class="letter">insights</span> that help your business grow.</h1>  
-        </div>
-        <div>
-          <p class="text">
+        <h1>Get <span class="letter">insights</span> that help your business grow.</h1>        
+        <div class="text">
+          <p>
             Discover the benefits of data analytics and make better decisions regarding revenue, customer 
             experience, and overall efficiency.
           </p>
         </div> 
-        <div class="grid">
-          <div>
-            <p class="stat-headings">10k+</p>
+        <div class="stats">
+          <div class="stat-headings">
+            <p>10k+</p>
             <h2>companies</h2>
           </div>
-          <div>
-            <p class="stat-headings">314</p>
+          <div class="stat-headings">
+            <p>314</p>
             <h2>templates</h2>
           </div>
-          <div>
-            <p class="stat-headings">12m+</p>
+          <div class="stat-headings">
+            <p>12m+</p>
             <h2>queries</h2>
           </div>  
         </div>
       </div>
-
-      <div class="img-card">
-        <div>
-          <img src="images/image-header-desktop.jpg">
-        </div>
-      </div>
     </article>
   </section>
-  
-<!--   <div class="attribution">
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Yamila Fuentes</a>.
-  </div> -->
+  </footer>
 </body>
 </html>
